@@ -1,0 +1,27 @@
+.section__padding_findus {
+    padding: 1rem 6rem;
+}
+.app__findus {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    min-height: 40vh;
+
+    background-color: var(--color-black);
+}
+
+.app__findus_tittle {
+    font-size: 60px;
+    font-family: var(--font-base);
+    padding-top: 6rem;
+    text-align: center;
+    background-color: var(--color-black);
+    color: var(--color-golden);
+}
+
+.app__findus_location {
+    color: var(--color-golden);
+    text-align: center;
+    font-size: 25px;
+}
+

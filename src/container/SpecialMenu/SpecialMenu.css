@@ -1,0 +1,10 @@
+.app__specialMenu {
+  background: var(--color-black);
+}
+
+@media screen and (max-width: 1150px) {
+  .app__header-img {
+    width: 150px;
+    height: auto;
+  }
+}
