@@ -18,6 +18,11 @@
     background-color: var(--color-black);
     color: var(--color-golden);
 }
+.app__findus_locationText {
+    color: var(--color-golden);
+    background-color: var(--color-black);
+    text-align: center;
+}
 
 .app__findus_location {
     color: var(--color-golden);
@@ -25,3 +30,42 @@
     font-size: 25px;
 }
 
+@media screen and (max-width: 1150px) {
+    .app__findus_tittle {
+        padding-top: 4rem;
+        font-size: 45px;
+    }
+    .app__findus_locationText {
+        font-size: 28px;
+    }
+    .app__findus_location {
+        font-size: 23px;
+    }
+}
+@media screen and (max-width: 650px) {
+    .app__findus_tittle {
+        padding-top: 2rem;
+        font-size: 28px;
+    }
+    .app__findus_locationText {
+        font-size: 15px;
+    }
+    .app__findus_location {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .app__findus_tittle {
+        padding-top: 1rem;
+        font-size: 15px;
+    }
+    .app__findus_locationText {
+        font-size: 7px;
+    }
+    .app__findus_location {
+        font-size: 6px;
+    }
+    .section__padding_findus {
+        padding: 1rem 3rem;
+    }
+}

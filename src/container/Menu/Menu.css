@@ -126,3 +126,40 @@ hr {
     place-content: center;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .app__menu1 {
+    margin: 1rem 0;
+  }
+  .app__wrapper_menuInfo {
+    width: 50%;
+    padding: 0px;
+  }
+  .app__tittleMenu {
+    font-size: 15px;
+    color: var(--color-golden);
+    padding-left: initial;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  
+  .item {
+    padding-left: 10px;
+    display: grid;
+    gap: 10px;
+    margin-bottom: 2px;
+  }
+  
+  .title,
+  .price,
+  .tag {
+    font-size: 8px;
+    color: var(--color-white);
+  }
+  .app__wrapper_menuImg {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    place-content: center;
+  }
+}

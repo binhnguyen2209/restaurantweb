@@ -4,7 +4,8 @@ import './FindUs.css'
 const FindUs = () => (
   <>
   <h1 className='app__findus_tittle'>Find Us</h1>
-  <h1 style={{ color: 'var(--color-golden)', backgroundColor: 'var(--color-black)', textAlign: 'center' }}>Locations</h1>
+  {/* <h1 style={{ color: 'var(--color-golden)', backgroundColor: 'var(--color-black)', textAlign: 'center' }}>Locations</h1> */}
+  <h1 className='app__findus_locationText'>Locations</h1>
   <div className='app__findus section__padding_findus' id='findus'>
     <div className='app__findus_location'>
       <p>Järnvägsgatan</p>
