@@ -56,3 +56,73 @@ hr {
     height: 1px;
     background: linear-gradient(to right, transparent, #fff, transparent);
 }
+
+@media screen and (max-width: 1150px) {
+  .app__wrapper_menuInfo {
+    width: 50%;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+  .app__tittleMenu {
+    font-size: 30px;
+    color: var(--color-golden);
+    padding-left: initial;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  
+  .item {
+    display: grid;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .title,
+  .price,
+  .tag {
+    font-size: 15px;
+    color: var(--color-white);
+    margin-bottom: 5px;
+  }
+  .app__wrapper_menuImg {
+    width: 40%;
+    display: flex;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .app__wrapper_menuInfo {
+    width: 50%;
+    padding: 0px;
+  }
+  .app__tittleMenu {
+    font-size: 15px;
+    color: var(--color-golden);
+    padding-left: initial;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  
+  .item {
+    padding-left: 10px;
+    display: grid;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .title,
+  .price,
+  .tag {
+    font-size: 10px;
+    color: var(--color-white);
+    margin-bottom: 5px;
+  }
+  .app__wrapper_menuImg {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    place-content: center;
+  }
+}

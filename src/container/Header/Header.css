@@ -1,16 +1,150 @@
 .app__header {
-    background-color: var(--color-black);
+  background-color: var(--color-black);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 6rem;
+  min-height: 100vh;
+}
+
+.app__wrapper_header_img {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 2rem;
 }
 
 .app__header-h1 {
+  font-family: var(--font-base);
+  color: var(--color-golden);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  line-height: 117px;
+  font-size: 90px;
+}
+
+.custom__button_explore {
+  background-color: var(--color-crimson);
+  color: var(--color-black);
+  font-family: var(--font-base);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 28px;
+  font-size: 16px;
+  padding: 0.5rem 1.5rem;
+  border-radius: 1px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.p__custom_cormorant {
+  font-family: var(--font-base);
+  color: var(--color-white);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  line-height: 29.9px;
+  font-size: 23px;
+}
+
+.app__wrapper_header_img img {
+  width: 80%;
+}
+
+@media screen and (max-width: 1150px) {
+  .app__header {
+    background-color: var(--color-black);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 6rem;
+    min-height: 25vh;
+  }
+
+  .app__header-h1 {
+    width: 100%;
     font-family: var(--font-base);
     color: var(--color-golden);
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    line-height: 117px;
-    font-size: 90px;
+    line-height: 50px;
+    font-size: 30px;
+  }
 }
 
-.app__header-img img {
-    width: 80%;
+@media screen and (max-width: 650px) {
+  .app__header {
+    background-color: var(--color-black);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 55vh;
+    padding: 0rem 1rem;
+  }
+
+  .app__header-h1 {
+    width: 100%;
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    line-height: 30px;
+    font-size: 23px;
+  }
+
+  .custom__button_explore {
+    background-color: var(--color-crimson);
+    color: var(--color-black);
+    font-family: var(--font-base);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 10px;
+    font-size: 12px;
+    padding: 0.5rem 1.5rem;
+    border-radius: 1px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .app__header {
+    background-color: var(--color-black);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 28vh;
+    padding: 0rem 1rem;
+  }
+
+  .app__header-h1 {
+    width: 100%;
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    line-height: 25px;
+    font-size: 15px;
+  }
+
+  .custom__button_explore {
+    background-color: var(--color-crimson);
+    color: var(--color-black);
+    font-family: var(--font-base);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 10px;
+    font-size: 12px;
+    padding: 0.5rem 1.5rem;
+    border-radius: 1px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
 }

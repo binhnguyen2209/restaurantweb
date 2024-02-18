@@ -16,8 +16,8 @@ const SpecialMenu = () => {
   const renderMenu = () => {
     console.log(imgs[index].name, imgs[index].src);
     return (
-      <div>
-        <img className='app__header-img' src={imgs[index].src} alt={imgs[index].name}/>
+      <div className='app__header-img'>
+        <img src={imgs[index].src} alt={imgs[index].name}/>
       </div>
     );
   };
@@ -33,7 +33,7 @@ const SpecialMenu = () => {
   }
 
   return (
-    <div className='app__specialMenu app__wrapper section__padding'>
+    <div className='app__specialMenu app__wrapper_specialMenu section__padding'>
       <FaArrowLeft  color="#fff" fontSize={27} onClick={() => setIndex(checkIdxImg(index - 1))}/>
       {renderMenu(index)}
       <FaArrowRight  color="#fff" fontSize={27} onClick={() => setIndex(checkIdxImg(index + 1))}/>

@@ -143,17 +143,17 @@
 
 @media screen and (max-width: 850px) {
   .section__padding {
-    padding: 4rem;
+    padding: 3rem 3rem;
   }
 }
 
 @media screen and (max-width: 650px) {
   .section__padding {
-    padding: 4rem 2rem;
+    padding: 1rem 2rem;
   }
   
   .p__cormorant {
-    font-size: 21px;
+    font-size: 19px;
   }
 
   .p__opensans {
@@ -162,12 +162,8 @@
 }
 
 @media screen and (max-width: 450px) {
-  .p__opensans {
-    font-size: 12px;
-  }
-
   .p__cormorant {
-    font-size: 19px;
+    font-size: 12px;
   }
 
   .headtext__cormorant {
